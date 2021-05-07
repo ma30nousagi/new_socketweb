@@ -12,7 +12,6 @@ html {
 }
 
 body {
-  font-family: 'Lato', sans-serif;
   font-family: 'Noto Sans JP', sans-serif;
   font-family: "游ゴシック体", YuGothic, "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
   font-family: "Font Awesome 5 Free";
@@ -103,5 +102,12 @@ main {
   transition: -webkit-transform 0.5s, -webkit-box-shadow 0.5s;
   transition: transform 0.5s, box-shadow 0.5s;
   transition: transform 0.5s, box-shadow 0.5s, -webkit-transform 0.5s, -webkit-box-shadow 0.5s;
+}
+
+h1,
+h2,
+h3 span,
+#main__logo {
+  font-family: 'Lato', sans-serif;
 }
 /*# sourceMappingURL=style.css.map */
